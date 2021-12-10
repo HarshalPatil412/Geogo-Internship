@@ -1,0 +1,150 @@
+.box1 {
+    float: left;
+    width: 20%;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height:800px;
+  }
+
+.box2{
+    float: left;
+    width: 60%;
+    padding: 30px;
+    right: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height:800px;
+
+}
+
+#rainy{
+      text-align: center;
+      height: 500;
+      width: 400;
+}
+#cloud{
+    height: 2em;
+    margin-right: 25px;
+}
+#raindrop{
+    height: 2em;
+    margin-right: 40px;
+}
+
+#mexi{
+
+    height: 80%;
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 8%;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+.text{
+    width: 80%;
+    height: 20%;
+    background: url(mexico.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 8%;
+    justify-content: left;
+}
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+
+  .navimg{
+      width:40px;height:40px;
+  }
+
+  .card{
+      width:100px;
+      border-radius:40px
+      
+     
+  }
+  .col-sm-1
+  {
+    margin-right: 40px;
+  
+  }
+  div.gallery {
+    padding: 10px;
+    margin:5px;
+    padding-top: 2px;
+    border: 1px solid rgb(213, 224, 224);
+    float: left;
+    width: 240px;
+    height:185px;
+    background-color: rgb(255, 255, 255);
+    border-radius:10px
+    
+  }
+  
+ 
+  
+  div.gallery img {
+    width: 60%;
+    height: 80px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .gallery1 {
+    
+      text-align: left;
+
+  }
+  .imgs{
+      width:10px;
+      height:10px;
+  }
+  .New{
+   width:100%;
+   height:170px;
+   border-radius: 15px;
+  }
+  span{
+      color:gray;
+  }
+  .base{
+      font-size:12px;
+  }
+p.detail{ color:gray}
+span.quality{color: deepskyblue;}
+span.visibility{color: goldenrod;}
+span.airquality{color: orangered;}
+
+.slider-container{
+  float: right;  
+  right: 820px;
+  top: 85%;
+
+}
+.slider-container .slider{
+  position: absolute;
+  
+  transform: rotate(-90deg) translate(-50%, -50%) ;
+  transform-origin: 0 0;
+  background-color:rgb(202, 202, 202); 
+  
+
+}

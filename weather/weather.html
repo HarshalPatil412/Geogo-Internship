@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css"    href="weather.css">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+<body style="background-color:#DDDDDD">
+
+    <div class="clearflix" style="text-align: center;">
+        <div class="box1" style="background-color:#fff">
+            <p class="well"><img src="search.png" style="margin-right: 10px;" >Search  Places </p>
+            <img  src="rainy-day.png" id="rainy">
+            <br><br>
+            <h1 style="font-size: 80px; font-weight: normal;" >19°C</h1>
+            <h3>Monday, <span style="font-family: Garamond, serif; font-size: 18.72px; color: rgba(0, 0, 0, 0.5);">16:00</span></h3>
+            <hr>
+            <p><img src="cloud.png" id="cloud" >Mostly Cloudy</p>
+            <p><img src="waterdrop.png" id="raindrop">Rain - 30%</p> 
+            <div class="text">
+                <div>
+                    <span class="material-icons" style="font-size:20px;  vertical-align: middle;">place</span>
+                    <span style="margin-top: 10px; color:floralwhite">Mexico, North America</span>
+                </div>
+            </div>
+
+            
+
+        </div><!--First Column Completed-->
+
+        <div class="box2" style="background-color: #eff4fa;">
+
+
+            <nav class="navbar navbar-expand-lg">
+        
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                   <h6> <a class="nav-item nav-link" href="#" style="color:grey" >Today</a></h6>
+                <h6><a class="nav-item nav-link" href="#"style="margin-right:400px;color:deepskyblue;" >Week</a></h6>
+                    </div>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#" style="float:right"><img class="navimg" src="celsius.png"></a>
+                    <a class="nav-item nav-link" href="#" style="float:right"><img class="navimg" src="fahrenheit.png"></a>
+                    <a class="nav-item nav-link" href="#" style="float:rigth"><img class="navimg" src="user.png"></a>
+                  </div>
+                </div>
+              </nav>
+
+
+              <!--CARD VIEW-->
+              <div class="row">
+                <div class="col-sm-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="card-title">Mon</h6>
+                      <img class="navimg" src="mon.png">
+                      <br>
+                      <p class="base"><b>20°</b><span> 6°</span></p>
+                    </div>
+                  </div>
+                </div>
+             
+                <div class="col-sm-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="card-title">Tue</h6>
+                      <img class="navimg" src="pouring.png">
+                      <br>
+                      <p class="base"><b>16°</b><span> 4°</span></p>
+                    </div>
+                  </div>
+                </div>
+           
+                <div class="col-sm-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="card-title">Wed</h6>
+                      <img class="navimg" src="wed.png">
+                      <br>
+                      <p class="base"><b>18°</b><span> 6°</span></p>
+                    </div>
+                  </div>
+                </div>
+          
+
+             
+                <div class="col-sm-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="card-title">Thu</h6>
+                      <img class="navimg" src="mon.png">
+                      <br>
+                      <p class="base"><b>12°</b><span> 8°</span></p>
+                    </div>
+                  </div>
+                </div>
+             
+                <div class="col-sm-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="card-title">Fri</h6>
+                      <img class="navimg" src="sunny.png">
+                      <br>
+                      <p class="base"><b>16°</b><span> 4°</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="card">
+                      <div class="card-body">
+                        <h6 class="card-title">Sat</h6>
+                        <img class="navimg" src="pouring.png">
+                        <br>
+                        <p class="base"><b>15°</b><span> 8°</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-1">
+                    <div class="card">
+                      <div class="card-body">
+                        <h6 class="card-title">Sun</h6>
+                        <img class="navimg" src="sunny.png">
+                        <br>
+                        <p class="base"><b>12°</b><span> 6°</span></p>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+
+
+                <p style="float:left;margin-top:20px;font-weight: bold;">Today's Highlight</p>
+<br><br><br>
+
+<div class="gallery ">
+    <p class="gallery1"><span>UV Index</span></p> 
+    <img src="gauge.jpeg" >
+  
+</div>
+
+<div class="gallery gallery1" style="overflow:hidden;">
+    <p><span>Wind Status</span></p>
+  <h1>8.70<span style="color:black;font-size:25px">Km/hr</span></h1>
+  <br>
+  <h6><img src="location.png" style="width:25px;height:25px;border:1px solid grey;border-radius: 50px;margin-right: 10px;">Barcelona, Spain</h6>
+</div>
+
+<div class="gallery" >
+    <p class="gallery1"><span>Sunrise and Sunset</span></p>
+   
+        <img src="up-arrow.png" style="width:25px;height:25px">
+        6:30AM<br><span style="font-size:12px">-2m 46s</span>
+        <p></p>
+        <img src="down-arrow.png" style="width:25px;height:25px">
+        5:45PM<br><span style="font-size:12px">-3m 26s</span>
+   
+</div>
+
+
+  <div class="gallery gallery1">
+      
+    <p><span>Humidity</span></p>
+    <h2>12%</h2>
+    
+     <br>
+    <p class="detail">Status:<span class="quality"> Good Quality</span></p>
+    <div class="slider-container">
+        <br><br>
+      <span class="clearfix">
+      <span class="bar"><span class="fill"></span></span>
+      <input type="range" id="slider" class="slider" style="color: gold;">
+      </span>
+    </div>
+
+</div>
+
+<div class="gallery gallery1">
+    <p><span>Visibility</span></p>
+    <h2>8.4km/h</h2>
+<br>
+<p class="detail">Status:<span class="visibility"> Average</span> <img style=" float:right; right: 10px; width:13px ; height:13px;" src="orange.png"></p>
+
+
+</div>
+
+<div class="gallery gallery1">
+    <p><span>Air Quality</span></p>
+    
+    <img  style="float:right; right: 150px; top:90%; width:13px; height: 13px;" src="red.jpeg">
+    <h2>120</h2>
+    <br>
+    <p class="detail">Status:<span class="airquality"> Bad Quality</span></p>
+   
+</div>
+           
+ </div>
+
+
+
+</body>
+</html>
+              
